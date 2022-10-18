@@ -1,7 +1,20 @@
 
 > Open this page at [https://jncolin.github.io/romeo_and_juliet/](https://jncolin.github.io/romeo_and_juliet/)
 
-## Use as Extension
+## Description
+
+This is a simple game developed for the micro:bit platform for educational purposes
+
+The goal is for Romeo to join Juliet by moving across the screen. Both characters are represented by leds; Juliet's location is chosen at random, while Romeo always start at top-left position (0,0).
+
+Romeo moves right by pressing button B, and down by pression button A. Position scrolls over the screen.
+
+Pressing A&B resets the game.
+
+When Romeo reaches Juliet, game is won and a signal is displayed. 
+
+There is a maximum number of steps that Romeo can take. When the limit is reach, game is lost and a disappointed signal is displayed
+
 
 This repository can be added as an **extension** in MakeCode.
 
